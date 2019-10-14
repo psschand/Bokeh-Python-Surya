@@ -1,0 +1,47 @@
+Filename: can.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+    54 425.7734375000 MiB 425.7734375000 MiB       @profile(precision=precision)
+    55                                 def __init__(self):
+    56 425.8437500000 MiB   0.0703125000 MiB           self.df = pd.DataFrame()
+    57 425.8437500000 MiB   0.0000000000 MiB           self.transforms = [Transform(f'v{i}') for i in range(TRANSFORMS)]
+
+
+Filename: can.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+    36 578.5312500000 MiB 578.5312500000 MiB   @profile(precision=precision)
+    37                             def update_df(df_orig: pd.DataFrame, df_new: pd.DataFrame) -> pd.DataFrame:
+    38 731.1835937500 MiB 152.6523437500 MiB       return pd.concat((df_orig, df_new), axis=1)
+
+
+Filename: can.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+    47 425.8437500000 MiB 425.8437500000 MiB       @profile(precision=precision)
+    48                                 def transform(self, df: pd.DataFrame) -> pd.DataFrame:
+    49 578.5312500000 MiB 152.6875000000 MiB           df_new = pd.DataFrame({self.var: DATA})
+    50 731.1835937500 MiB 152.6523437500 MiB           return update_df(df, df_new)
+
+
+Filename: can.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+    36 731.1835937500 MiB 731.1835937500 MiB   @profile(precision=precision)
+    37                             def update_df(df_orig: pd.DataFrame, df_new: pd.DataFrame) -> pd.DataFrame:
+    38 1036.3710937500 MiB 305.1875000000 MiB       return pd.concat((df_orig, df_new), axis=1)
+
+
+Filename: can.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+    47 578.5937500000 MiB 578.5937500000 MiB       @profile(precision=precision)
+    48                                 def transform(self, df: pd.DataFrame) -> pd.DataFrame:
+    49 731.1835937500 MiB 152.5898437500 MiB           df_new = pd.DataFrame({self.var: DATA})
+    50 1036.3710937500 MiB 305.1875000000 MiB           return update_df(df, df_new)
+

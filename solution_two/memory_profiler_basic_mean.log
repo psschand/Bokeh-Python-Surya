@@ -1,0 +1,101 @@
+Filename: pan_memory.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+    62  56.0195312500 MiB  56.0195312500 MiB       @profile(precision=precision, stream=fp)
+    63                                 def run(self):
+    64  56.2851562500 MiB   0.0000000000 MiB           for t in self.transforms:
+    65  56.2851562500 MiB   0.1054687500 MiB               self.df = t.transform(self.df)
+    66  56.2851562500 MiB   0.0000000000 MiB           return self.df
+
+
+
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+    47  56.1250000000 MiB  56.1250000000 MiB       @profile(precision=precision, stream=fp)
+    48                                 def transform(self, df: pd.DataFrame) -> pd.DataFrame:
+    49  56.1250000000 MiB   0.0000000000 MiB           df_new = pd.DataFrame({self.var: DATA})
+    50  56.1992187500 MiB   0.0742187500 MiB           return update_df(df, df_new)
+
+
+Filename: pan_memory.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+    47  56.1992187500 MiB  56.1992187500 MiB       @profile(precision=precision, stream=fp)
+    48                                 def transform(self, df: pd.DataFrame) -> pd.DataFrame:
+    49  56.1992187500 MiB   0.0000000000 MiB           df_new = pd.DataFrame({self.var: DATA})
+    50  56.2382812500 MiB   0.0390625000 MiB           return update_df(df, df_new)
+
+
+Filename: pan_memory.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+    47  56.2421875000 MiB  56.2421875000 MiB       @profile(precision=precision, stream=fp)
+    48                                 def transform(self, df: pd.DataFrame) -> pd.DataFrame:
+    49  56.2421875000 MiB   0.0000000000 MiB           df_new = pd.DataFrame({self.var: DATA})
+    50  56.2421875000 MiB   0.0000000000 MiB           return update_df(df, df_new)
+
+
+Filename: pan_memory.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+    47  56.2421875000 MiB  56.2421875000 MiB       @profile(precision=precision, stream=fp)
+    48                                 def transform(self, df: pd.DataFrame) -> pd.DataFrame:
+    49  56.2460937500 MiB   0.0039062500 MiB           df_new = pd.DataFrame({self.var: DATA})
+    50  56.2539062500 MiB   0.0078125000 MiB           return update_df(df, df_new)
+
+
+Filename: pan_memory.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+    47  56.2539062500 MiB  56.2539062500 MiB       @profile(precision=precision, stream=fp)
+    48                                 def transform(self, df: pd.DataFrame) -> pd.DataFrame:
+    49  56.2539062500 MiB   0.0000000000 MiB           df_new = pd.DataFrame({self.var: DATA})
+    50  56.2539062500 MiB   0.0000000000 MiB           return update_df(df, df_new)
+
+
+Filename: pan_memory.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+    47  56.2539062500 MiB  56.2539062500 MiB       @profile(precision=precision, stream=fp)
+    48                                 def transform(self, df: pd.DataFrame) -> pd.DataFrame:
+    49  56.2539062500 MiB   0.0000000000 MiB           df_new = pd.DataFrame({self.var: DATA})
+    50  56.2539062500 MiB   0.0000000000 MiB           return update_df(df, df_new)
+
+
+Filename: pan_memory.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+    47  56.2578125000 MiB  56.2578125000 MiB       @profile(precision=precision, stream=fp)
+    48                                 def transform(self, df: pd.DataFrame) -> pd.DataFrame:
+    49  56.2578125000 MiB   0.0000000000 MiB           df_new = pd.DataFrame({self.var: DATA})
+    50  56.2656250000 MiB   0.0078125000 MiB           return update_df(df, df_new)
+
+
+Filename: pan_memory.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+    47  56.2656250000 MiB  56.2656250000 MiB       @profile(precision=precision, stream=fp)
+    48                                 def transform(self, df: pd.DataFrame) -> pd.DataFrame:
+    49  56.2656250000 MiB   0.0000000000 MiB           df_new = pd.DataFrame({self.var: DATA})
+    50  56.2695312500 MiB   0.0039062500 MiB           return update_df(df, df_new)
+
+
+Filename: pan_memory.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+    47  56.2695312500 MiB  56.2695312500 MiB       @profile(precision=precision, stream=fp)
+    48                                 def transform(self, df: pd.DataFrame) -> pd.DataFrame:
+    49  56.2695312500 MiB   0.0000000000 MiB           df_new = pd.DataFrame({self.var: DATA})
+    50  56.2851562500 MiB   0.0156250000 MiB           return update_df(df, df_new)
+
+

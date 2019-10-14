@@ -1,0 +1,113 @@
+Filename: can2.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+    28 425.5312500000 MiB 425.5312500000 MiB       @profile(precision=precision)
+    29                                 def __init__(self, var: str):
+    30 425.5312500000 MiB   0.0000000000 MiB           self.var = var
+
+
+Filename: can2.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+    28 425.5312500000 MiB 425.5312500000 MiB       @profile(precision=precision)
+    29                                 def __init__(self, var: str):
+    30 425.5312500000 MiB   0.0000000000 MiB           self.var = var
+
+
+Filename: can2.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+    28 425.5312500000 MiB 425.5312500000 MiB       @profile(precision=precision)
+    29                                 def __init__(self, var: str):
+    30 425.5312500000 MiB   0.0000000000 MiB           self.var = var
+
+
+Filename: can2.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+    28 425.5312500000 MiB 425.5312500000 MiB       @profile(precision=precision)
+    29                                 def __init__(self, var: str):
+    30 425.5312500000 MiB   0.0000000000 MiB           self.var = var
+
+
+Filename: can2.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+    28 425.5312500000 MiB 425.5312500000 MiB       @profile(precision=precision)
+    29                                 def __init__(self, var: str):
+    30 425.5312500000 MiB   0.0000000000 MiB           self.var = var
+
+
+Filename: can2.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+    28 425.5312500000 MiB 425.5312500000 MiB       @profile(precision=precision)
+    29                                 def __init__(self, var: str):
+    30 425.5312500000 MiB   0.0000000000 MiB           self.var = var
+
+
+Filename: can2.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+    28 425.5312500000 MiB 425.5312500000 MiB       @profile(precision=precision)
+    29                                 def __init__(self, var: str):
+    30 425.5312500000 MiB   0.0000000000 MiB           self.var = var
+
+
+Filename: can2.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+    28 425.5312500000 MiB 425.5312500000 MiB       @profile(precision=precision)
+    29                                 def __init__(self, var: str):
+    30 425.5312500000 MiB   0.0000000000 MiB           self.var = var
+
+
+Filename: can2.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+    28 425.5312500000 MiB 425.5312500000 MiB       @profile(precision=precision)
+    29                                 def __init__(self, var: str):
+    30 425.5312500000 MiB   0.0000000000 MiB           self.var = var
+
+
+Filename: can2.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+    28 425.5312500000 MiB 425.5312500000 MiB       @profile(precision=precision)
+    29                                 def __init__(self, var: str):
+    30 425.5312500000 MiB   0.0000000000 MiB           self.var = var
+
+
+Filename: can2.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+    42 425.4609375000 MiB 425.4609375000 MiB       @profile(precision=precision)
+    43                                 def __init__(self):
+    44 425.5312500000 MiB   0.0703125000 MiB           self.df = pd.DataFrame()
+    45 425.5312500000 MiB   0.0000000000 MiB           self.df2 = pd.DataFrame()
+    46                                     self.transforms = [
+    47 425.5312500000 MiB   0.0000000000 MiB               Transform(f'v{i}') for i in range(TRANSFORMS)
+    48                                     ]
+
+
+Filename: can2.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+    32 425.5312500000 MiB 425.5312500000 MiB       @profile(precision=precision)
+    33                                 def transform(self, df: pd.DataFrame) -> pd.DataFrame:
+    34 578.2187500000 MiB 152.6875000000 MiB           df_new = pd.DataFrame({self.var: DATA})
+    35
+    36 578.2187500000 MiB   0.0000000000 MiB           return df_new
+
