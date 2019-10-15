@@ -9,17 +9,16 @@ Requirements:
 v1 - given code
 v2- optimised code reduced memory consumption by 50 %,by concatinating dataframes in run method of class pipeline
 v3- optimised code reduced memory consumption by 70 % ,by creating a list of dataframes and and merging them together
+# ---------------------
 
-you can run the python file named can2 and can3 individually.
+v3- updated the code used generators ,numpy arrays and garbage collection for better performance and stability
+    I also added pickling and and unpickiling to reduce memory usage, The only problem I am facing here is deserialising 
+    the compressed array.
+v4- The same as v3 without the compressed array     
+     divided numpy array in chunks ,and merged data frames along with  pickling and unpickling
+     to optimise memory usage 
+you can run the python file named can3.py and can4.py individually.
 
-python can2.py
 python can3.py
+python can4.py
 
-Memory Profifer
-import memory_profiler and tag the following decorator to individual methods
-
-fp = open('memory_profiler_basic_mean.log', 'w+')
-@profile(precision=precision, stream=fp)
-
-python -m memory_profiler can2.py
-python -m memory_profiler can3.py

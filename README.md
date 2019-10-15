@@ -25,3 +25,6 @@ open a command prompt, change to the directory containing `bokeh_app` and run
 and will automatically open the interactive dashboard in your browser at localhost:5006. 
 
 Folder solution_two  contains my  solution for memory optimisation problem
+# updated V3 and added v4
+v4 - divided numpy array in chunks ,and merged data frames along with  pickling and unpickling
+     to optimise memory usage 
